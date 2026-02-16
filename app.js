@@ -1,5 +1,11 @@
-// Gig Builder (with Artist filter + failsafes)
-// Works even if artistFilter isn't present yet (prevents "nothing showing" crashes)
+// Gig Builder (Artist filter + Era/Tag filters + Sorting + Chords view + Smart 90-min set builder
+// + Save/Load multiple sets + Stage mode + Multi-JSON loading)
+//
+// Requires index.html IDs:
+// search, eraFilter, artistFilter, tagFilter, sortBy, btnBuild, btnStage,
+// songList, currentSet, setName, btnSaveSet, btnClearSet, savedSets, btnLoadSet, btnDeleteSet
+//
+// Loads songs from: songs.json + songs_extra_200.json (both must exist in repo root)
 
 let songs = [];
 let currentSet = [];
@@ -8,9 +14,9 @@ let currentSet = [];
 const elSongList   = document.getElementById("songList");
 const elSearch     = document.getElementById("search");
 const elEra        = document.getElementById("eraFilter");
+const elArtist     = document.getElementById("artistFilter");
 const elTag        = document.getElementById("tagFilter");
 const elSort       = document.getElementById("sortBy");
-const elArtist     = document.getElementById("artistFilter"); // may be null if index.html not updated
 
 const elCurrentSet = document.getElementById("currentSet");
 const elSetName    = document.getElementById("setName");
@@ -36,7 +42,7 @@ function showError(msg) {
     <div class="song">
       <h3>⚠️ App error</h3>
       <p>${esc(msg)}</p>
-      <p class="small">Tip: make sure index.html contains the matching filter IDs.</p>
+      <p class="small">Check your file names and that index.html IDs match.</p>
     </div>
   `;
 }
@@ -63,6 +69,7 @@ function renderChords(song) {
 // ---- library rendering ----
 function renderSongs(list) {
   if (!elSongList) return;
+
   elSongList.innerHTML = list.map(song => {
     const id = esc(song.id);
     const tags = Array.isArray(song.tags) ? song.tags.join(", ") : "";
@@ -94,6 +101,7 @@ function renderSongs(list) {
 // ---- current set rendering ----
 function renderSet() {
   if (!elCurrentSet) return;
+
   elCurrentSet.innerHTML = currentSet.map((s, i) => `
     <li>
       <strong>${i+1}.</strong> ${esc(s.title)} - ${esc(s.artist)}
@@ -105,8 +113,11 @@ function renderSet() {
 
 // ---- Artist dropdown population ----
 function populateArtistFilter() {
-  if (!elArtist) return; // if index.html not updated yet, do nothing safely
-  const artists = [...new Set(songs.map(s => s.artist).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  if (!elArtist) return;
+
+  const artists = [...new Set(songs.map(s => s.artist).filter(Boolean))]
+    .sort((a,b)=>a.localeCompare(b));
+
   elArtist.innerHTML = `
     <option value="all">All Artists</option>
     ${artists.map(a => `<option value="${esc(a)}">${esc(a)}</option>`).join("")}
@@ -117,8 +128,8 @@ function populateArtistFilter() {
 function applyFilters() {
   const q = (elSearch?.value || "").toLowerCase().trim();
   const era = elEra?.value || "all";
-  const tag = elTag?.value || "all";
   const artist = elArtist?.value || "all";
+  const tag = elTag?.value || "all";
 
   let list = songs.filter(s => {
     const matchesQ =
@@ -144,7 +155,7 @@ function applyFilters() {
   renderSongs(list);
 }
 
-// ---- library click handling ----
+// ---- library click handling (Add + Chords toggle) ----
 elSongList?.addEventListener("click", (e) => {
   const addBtn = e.target.closest(".btn-add");
   const chordBtn = e.target.closest(".btn-chords");
@@ -153,35 +164,39 @@ elSongList?.addEventListener("click", (e) => {
     const id = addBtn.getAttribute("data-songid");
     const song = songs.find(s => String(s.id) === String(id));
     if (!song) return;
-    if (currentSet.some(x => x.id === song.id)) return; // prevent duplicates
+
+    // prevent duplicates
+    if (currentSet.some(x => x.id === song.id)) return;
+
     currentSet.push(song);
     renderSet();
     return;
   }
-if (chordBtn) {
-  const id = chordBtn.getAttribute("data-songid");
-  const panel = document.getElementById("chords-" + id);
-  if (!panel) return;
 
-  const isOpen = panel.style.display !== "none";
+  if (chordBtn) {
+    const id = chordBtn.getAttribute("data-songid");
+    const panel = document.getElementById("chords-" + id);
+    if (!panel) return;
 
-  // If already open, close it (toggle behavior)
-  if (isOpen) {
-    panel.style.display = "none";
-    chordBtn.textContent = "📄 View Chords";
-    return;
+    const isOpen = panel.style.display !== "none";
+
+    // toggle close if same is open
+    if (isOpen) {
+      panel.style.display = "none";
+      chordBtn.textContent = "📄 View Chords";
+      return;
+    }
+
+    // close others, open this
+    document.querySelectorAll(".chords").forEach(p => p.style.display = "none");
+    document.querySelectorAll(".btn-chords").forEach(b => b.textContent = "📄 View Chords");
+
+    panel.style.display = "block";
+    chordBtn.textContent = "📄 Hide Chords";
   }
-
-  // Otherwise close all others, then open this one
-  document.querySelectorAll(".chords").forEach(p => p.style.display = "none");
-  document.querySelectorAll(".btn-chords").forEach(b => b.textContent = "📄 View Chords");
-
-  panel.style.display = "block";
-  chordBtn.textContent = "📄 Hide Chords";
-}
-
 });
 
+// ---- remove from set ----
 elCurrentSet?.addEventListener("click", (e) => {
   const btn = e.target.closest(".btn-remove");
   if (!btn) return;
@@ -230,8 +245,9 @@ btnSaveSet?.addEventListener("click", () => {
   const name = (elSetName?.value || "").trim();
   if (!name) { alert("Give your set a name first."); return; }
   if (!currentSet.length) { alert("Your current set is empty."); return; }
+
   const sets = loadSavedSets();
-  sets[name] = currentSet.map(s => s.id);
+  sets[name] = currentSet.map(s => s.id); // store IDs only
   saveSavedSets(sets);
   refreshSavedSetsDropdown();
   alert("Saved!");
@@ -240,6 +256,7 @@ btnSaveSet?.addEventListener("click", () => {
 btnLoadSet?.addEventListener("click", () => {
   const name = elSavedSets?.value;
   if (!name) return;
+
   const sets = loadSavedSets();
   const ids = sets[name] || [];
   currentSet = ids.map(id => songs.find(s => s.id === id)).filter(Boolean);
@@ -249,6 +266,7 @@ btnLoadSet?.addEventListener("click", () => {
 btnDeleteSet?.addEventListener("click", () => {
   const name = elSavedSets?.value;
   if (!name) return;
+
   const sets = loadSavedSets();
   delete sets[name];
   saveSavedSets(sets);
@@ -261,12 +279,12 @@ btnClearSet?.addEventListener("click", () => {
 });
 
 // ---- smart 90-min set builder ----
+// 90 mins ~ 15 songs. Respects current filters.
 function buildSmartSet() {
-  // respects filters
   const q = (elSearch?.value || "").toLowerCase().trim();
   const era = elEra?.value || "all";
-  const tag = elTag?.value || "all";
   const artist = elArtist?.value || "all";
+  const tag = elTag?.value || "all";
 
   let pool = songs.filter(s => {
     const matchesQ =
@@ -283,6 +301,7 @@ function buildSmartSet() {
     return matchesQ && matchesEra && matchesArtist && matchesTag;
   });
 
+  // Bias toward popularity
   pool.sort((a,b)=>(b.popularity||0)-(a.popularity||0));
 
   const byEnergy = (n) => pool.filter(s => (s.energy||0) === n);
@@ -300,6 +319,7 @@ function buildSmartSet() {
   pickUnique(byEnergy(4), 1, set);
   pickUnique(byEnergy(5), 1, set);
 
+  // fallback fill
   for (const s of pool) {
     if (set.length >= 15) break;
     if (!set.some(x => x.id === s.id)) set.push(s);
@@ -323,18 +343,29 @@ elSort?.addEventListener("change", applyFilters);
   refreshSavedSetsDropdown();
   renderSet();
 
-  fetch("songs.json?v=" + Date.now())
-    .then(res => {
-      if (!res.ok) throw new Error("Failed to load songs.json (" + res.status + ")");
-      return res.json();
+  // Multi-JSON loader (cache-busted for iPad)
+  Promise.all(["songs.json", "songs_extra_200.json"].map(f =>
+    fetch(f + "?v=" + Date.now()).then(r => {
+      if (!r.ok) throw new Error(`Failed to load ${f} (${r.status})`);
+      return r.json();
     })
-    .then(data => {
-      songs = Array.isArray(data) ? data : [];
-      populateArtistFilter();
-      applyFilters();
-      refreshSavedSetsDropdown();
-    })
-    .catch(err => {
-      showError(err.message);
+  ))
+  .then(results => {
+    songs = results.flat();
+
+    // Optional: de-dup by id (keeps first)
+    const seen = new Set();
+    songs = songs.filter(s => {
+      const id = String(s.id || "");
+      if (!id) return false;
+      if (seen.has(id)) return false;
+      seen.add(id);
+      return true;
     });
+
+    populateArtistFilter();
+    applyFilters();
+    refreshSavedSetsDropdown();
+  })
+  .catch(err => showError(err.message));
 })();
