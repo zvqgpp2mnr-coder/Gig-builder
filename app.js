@@ -171,13 +171,28 @@ function renderSongs(list) {
 function renderSet() {
   if (!elCurrentSet) return;
 
-  elCurrentSet.innerHTML = currentSet.map((s, i) => `
-    <li>
-      <strong>${i+1}.</strong> ${esc(s.title)} - ${esc(s.artist)}
-      <span class="small"> (Key ${esc(s.key)}, Capo ${esc(s.capo)})</span>
-      <button class="btn btn-secondary btn-remove" data-index="${i}" style="float:right;">Remove</button>
-    </li>
-  `).join("");
+  elCurrentSet.innerHTML = currentSet.map((s, i) => {
+    const id = esc(s.id);
+    return `
+      <li>
+        <div style="display:flex; gap:10px; align-items:center; justify-content:space-between;">
+          <div style="flex:1;">
+            <strong>${i+1}.</strong> ${esc(s.title)} - ${esc(s.artist)}
+            <div class="small">Key ${esc(s.key)} • Capo ${esc(s.capo)}</div>
+          </div>
+
+          <div style="display:flex; gap:8px; align-items:center;">
+            <button class="btn btn-secondary set-chords" data-songid="${id}">📄 Chords</button>
+            <button class="btn btn-secondary btn-remove" data-index="${i}">Remove</button>
+          </div>
+        </div>
+
+        <div class="chords" id="set-chords-${id}" style="display:none;">
+          ${renderChords(s)}
+        </div>
+      </li>
+    `;
+  }).join("");
 }
 
 // ---- Artist dropdown population ----
