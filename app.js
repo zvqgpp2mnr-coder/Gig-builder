@@ -1,15 +1,11 @@
-// Gig Builder (Artist filter + Era/Tag filters + Sorting + Chords view + Smart 90-min set builder
-// + Save/Load multiple sets + Stage mode + Multi-JSON loading)
-//
-// Requires index.html IDs:
-// search, eraFilter, artistFilter, tagFilter, sortBy, btnBuild, btnStage,
-// songList, currentSet, setName, btnSaveSet, btnClearSet, savedSets, btnLoadSet, btnDeleteSet
-//
-// Loads songs from: songs.json + songs_extra_200_real_titles.json (both must exist in repo root)
+// app.js
+// Alan’s Chord App — Library + Filters + Sorting + Chords + Set Builder + Save/Load + Stage Mode
+// + Teleprompter: tap set song to activate, big chords below, swipe next/prev
+// + Multi-JSON loader + song counter + hide songs on home until search/filter
 
 let songs = [];
-let transposeSteps = 0; // global semitones
 let currentSet = [];
+let activeSetIndex = -1;
 
 // ---- DOM ----
 const elSongList   = document.getElementById("songList");
@@ -19,9 +15,6 @@ const elArtist     = document.getElementById("artistFilter");
 const elTag        = document.getElementById("tagFilter");
 const elSort       = document.getElementById("sortBy");
 const elSongCounter = document.getElementById("songCounter");
-const btnTransposeDown = document.getElementById("transposeDown");
-const btnTransposeUp = document.getElementById("transposeUp");
-const elTransposeLabel = document.getElementById("transposeLabel");
 
 const elCurrentSet = document.getElementById("currentSet");
 const elSetName    = document.getElementById("setName");
@@ -33,6 +26,14 @@ const btnSaveSet   = document.getElementById("btnSaveSet");
 const btnLoadSet   = document.getElementById("btnLoadSet");
 const btnDeleteSet = document.getElementById("btnDeleteSet");
 const btnClearSet  = document.getElementById("btnClearSet");
+
+// Teleprompter DOM
+const elTeleprompter = document.getElementById("teleprompter");
+const elActiveSongTitle = document.getElementById("activeSongTitle");
+const elActiveSongMeta = document.getElementById("activeSongMeta");
+const elActiveSongChords = document.getElementById("activeSongChords");
+const btnPrevSong = document.getElementById("prevSong");
+const btnNextSong = document.getElementById("nextSong");
 
 // ---- utils ----
 function esc(str) {
@@ -47,76 +48,18 @@ function showError(msg) {
     <div class="song">
       <h3>⚠️ App error</h3>
       <p>${esc(msg)}</p>
-      <p class="small">Check your file names and that index.html IDs match.</p>
+      <p class="small">Check file names exist in repo root.</p>
     </div>
   `;
 }
 
+function updateSongCounter(visibleCount) {
+  if (!elSongCounter) return;
+  const total = songs.length;
+  elSongCounter.textContent = `Songs: ${visibleCount} showing • ${total} total • Set: ${currentSet.length}`;
+}
+
 // ---- chords rendering (Structure B) ----
-const NOTE_TO_IDX = {
-  "C":0, "B#":0,
-  "C#":1, "Db":1,
-  "D":2,
-  "D#":3, "Eb":3,
-  "E":4, "Fb":4,
-  "F":5, "E#":5,
-  "F#":6, "Gb":6,
-  "G":7,
-  "G#":8, "Ab":8,
-  "A":9,
-  "A#":10, "Bb":10,
-  "B":11, "Cb":11
-};
-const IDX_TO_NOTE_SHARP = ["C","C#","D","D#","E","F","F#","G","G#","A","A#","B"];
-
-function clampTranspose(n){
-  // keep it sane for UI
-  if (n > 11) return n - 12;
-  if (n < -11) return n + 12;
-  return n;
-}
-
-function transposeNote(note, steps){
-  const idx = NOTE_TO_IDX[note];
-  if (idx === undefined) return note; // unknown, leave as-is
-  const next = (idx + steps + 1200) % 12;
-  return IDX_TO_NOTE_SHARP[next];
-}
-
-function transposeChord(chord, steps){
-  // Handles: F#m7, Bb, Dsus4, Cadd9, G/B, etc.
-  // Root note at start: [A-G][#|b]?
-  const parts = String(chord).split("/");
-  const main = parts[0];
-  const bass = parts[1];
-
-  const m = main.match(/^([A-G])([#b]?)(.*)$/);
-  if (!m) return chord;
-
-  const root = m[1] + (m[2] || "");
-  const rest = m[3] || "";
-
-  const newRoot = transposeNote(root, steps);
-  let out = newRoot + rest;
-
-  if (bass) {
-    const bm = bass.match(/^([A-G])([#b]?)(.*)$/);
-    if (bm) {
-      const bassRoot = bm[1] + (bm[2] || "");
-      const bassRest = bm[3] || "";
-      const newBass = transposeNote(bassRoot, steps) + bassRest;
-      out += "/" + newBass;
-    } else {
-      out += "/" + bass;
-    }
-  }
-  return out;
-}
-
-function updateTransposeUI(){
-  if (!elTransposeLabel) return;
-  elTransposeLabel.textContent = `Transpose: ${transposeSteps}`;
-}
 function renderChords(song) {
   const chords = song.chords || {};
   const order = ["intro","verse","preChorus","chorus","bridge","outro"];
@@ -133,6 +76,40 @@ function renderChords(song) {
     .join("");
 
   return sections || "<em>No chords found for this song.</em>";
+}
+
+// ---- Teleprompter helpers ----
+function setActiveSong(index) {
+  if (!currentSet.length) {
+    activeSetIndex = -1;
+    if (elTeleprompter) elTeleprompter.style.display = "none";
+    return;
+  }
+
+  if (index < 0) index = 0;
+  if (index > currentSet.length - 1) index = currentSet.length - 1;
+
+  activeSetIndex = index;
+  const s = currentSet[activeSetIndex];
+
+  if (elTeleprompter) elTeleprompter.style.display = "block";
+  if (elActiveSongTitle) elActiveSongTitle.textContent = `${s.title} — ${s.artist}`;
+  if (elActiveSongMeta) elActiveSongMeta.textContent = `Key ${s.key} • Capo ${s.capo} • ${activeSetIndex+1}/${currentSet.length}`;
+  if (elActiveSongChords) elActiveSongChords.innerHTML = renderChords(s);
+
+  document.querySelectorAll("#currentSet li").forEach(li => li.classList.remove("active"));
+  const activeLi = document.querySelector(`#currentSet li[data-index="${activeSetIndex}"]`);
+  if (activeLi) activeLi.classList.add("active");
+}
+
+function nextSong() {
+  if (!currentSet.length) return;
+  setActiveSong(activeSetIndex < 0 ? 0 : Math.min(activeSetIndex + 1, currentSet.length - 1));
+}
+
+function prevSong() {
+  if (!currentSet.length) return;
+  setActiveSong(activeSetIndex <= 0 ? 0 : activeSetIndex - 1);
 }
 
 // ---- library rendering ----
@@ -171,28 +148,27 @@ function renderSongs(list) {
 function renderSet() {
   if (!elCurrentSet) return;
 
-  elCurrentSet.innerHTML = currentSet.map((s, i) => {
-    const id = esc(s.id);
-    return `
-      <li>
-        <div style="display:flex; gap:10px; align-items:center; justify-content:space-between;">
-          <div style="flex:1;">
-            <strong>${i+1}.</strong> ${esc(s.title)} - ${esc(s.artist)}
-            <div class="small">Key ${esc(s.key)} • Capo ${esc(s.capo)}</div>
-          </div>
-
-          <div style="display:flex; gap:8px; align-items:center;">
-            <button class="btn btn-secondary set-chords" data-songid="${id}">📄 Chords</button>
-            <button class="btn btn-secondary btn-remove" data-index="${i}">Remove</button>
-          </div>
+  elCurrentSet.innerHTML = currentSet.map((s, i) => `
+    <li data-index="${i}">
+      <div style="display:flex; gap:10px; align-items:center; justify-content:space-between;">
+        <div style="flex:1;">
+          <strong>${i+1}.</strong> ${esc(s.title)} - ${esc(s.artist)}
+          <div class="small">Key ${esc(s.key)} • Capo ${esc(s.capo)}</div>
         </div>
 
-        <div class="chords" id="set-chords-${id}" style="display:none;">
-          ${renderChords(s)}
-        </div>
-      </li>
-    `;
-  }).join("");
+        <button class="btn btn-secondary btn-remove" data-index="${i}">Remove</button>
+      </div>
+    </li>
+  `).join("");
+
+  if (activeSetIndex >= currentSet.length) activeSetIndex = currentSet.length - 1;
+  if (currentSet.length && activeSetIndex === -1) activeSetIndex = 0;
+
+  if (!currentSet.length) setActiveSong(-1);
+  else setActiveSong(activeSetIndex);
+
+  // update counter if already set
+  updateSongCounter(lastVisibleCount);
 }
 
 // ---- Artist dropdown population ----
@@ -209,28 +185,22 @@ function populateArtistFilter() {
 }
 
 // ---- filters + sorting ----
-function updateSongCounter(visibleCount) {
-  if (!elSongCounter) return;
-  const total = songs.length;
-  elSongCounter.textContent = `Songs: ${visibleCount} showing • ${total} total`;
-}
+let lastVisibleCount = 0;
+
 function applyFilters() {
   const q = (elSearch?.value || "").toLowerCase().trim();
   const era = elEra?.value || "all";
   const artist = elArtist?.value || "all";
   const tag = elTag?.value || "all";
-  // If nothing selected and no search, show nothing
-const noFiltersActive =
-  !q &&
-  era === "all" &&
-  artist === "all" &&
-  tag === "all";
 
-if (noFiltersActive) {
-  renderSongs([]);
-  updateSongCounter(0);
-  return;
-}
+  // Hide all songs on home until something is chosen/typed
+  const noFiltersActive = !q && era === "all" && artist === "all" && tag === "all";
+  if (noFiltersActive) {
+    lastVisibleCount = 0;
+    renderSongs([]);
+    updateSongCounter(0);
+    return;
+  }
 
   let list = songs.filter(s => {
     const matchesQ =
@@ -253,6 +223,7 @@ if (noFiltersActive) {
   if (sort === "energyAsc")      list.sort((a,b)=>(a.energy||0)-(b.energy||0));
   if (sort === "energyDesc")     list.sort((a,b)=>(b.energy||0)-(a.energy||0));
 
+  lastVisibleCount = list.length;
   renderSongs(list);
   updateSongCounter(list.length);
 }
@@ -282,7 +253,6 @@ elSongList?.addEventListener("click", (e) => {
 
     const isOpen = panel.style.display !== "none";
 
-    // toggle close if same is open
     if (isOpen) {
       panel.style.display = "none";
       chordBtn.textContent = "📄 View Chords";
@@ -298,9 +268,8 @@ elSongList?.addEventListener("click", (e) => {
   }
 });
 
-// ---- remove from set ----
+// ---- set list click handling (tap selects active + remove) ----
 elCurrentSet?.addEventListener("click", (e) => {
-  // Remove
   const removeBtn = e.target.closest(".btn-remove");
   if (removeBtn) {
     const idx = Number(removeBtn.getAttribute("data-index"));
@@ -311,22 +280,38 @@ elCurrentSet?.addEventListener("click", (e) => {
     return;
   }
 
-  // Toggle chords from set list
-  const chordBtn = e.target.closest(".set-chords");
-  if (chordBtn) {
-    const id = chordBtn.getAttribute("data-songid");
-    const panel = document.getElementById("set-chords-" + id);
-    if (!panel) return;
-
-    const isOpen = panel.style.display !== "none";
-
-    // Optional: close all other open set chord panels
-    document.querySelectorAll("#currentSet .chords").forEach(p => p.style.display = "none");
-
-    panel.style.display = isOpen ? "none" : "block";
-    chordBtn.textContent = isOpen ? "📄 Chords" : "📄 Hide";
+  const li = e.target.closest("#currentSet li");
+  if (li) {
+    const idx = Number(li.getAttribute("data-index"));
+    if (!Number.isNaN(idx)) setActiveSong(idx);
   }
 });
+
+// ---- teleprompter prev/next ----
+btnPrevSong?.addEventListener("click", prevSong);
+btnNextSong?.addEventListener("click", nextSong);
+
+// Swipe support on teleprompter
+(function enableSwipe() {
+  if (!elTeleprompter) return;
+  let startX = 0, startY = 0;
+
+  elTeleprompter.addEventListener("touchstart", (e) => {
+    const t = e.touches[0];
+    startX = t.clientX;
+    startY = t.clientY;
+  }, { passive: true });
+
+  elTeleprompter.addEventListener("touchend", (e) => {
+    const t = e.changedTouches[0];
+    const dx = t.clientX - startX;
+    const dy = t.clientY - startY;
+
+    if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy)) return;
+
+    if (dx < 0) nextSong(); else prevSong();
+  }, { passive: true });
+})();
 
 // ---- stage mode ----
 function setStageMode(on) {
@@ -362,17 +347,6 @@ function refreshSavedSetsDropdown() {
     ? names.map(n => `<option value="${esc(n)}">${esc(n)}</option>`).join("")
     : `<option value="">(no saved sets)</option>`;
 }
-btnTransposeDown?.addEventListener("click", () => {
-  transposeSteps = clampTranspose(transposeSteps - 1);
-  updateTransposeUI();
-  applyFilters(); // re-render list with new chords
-});
-
-btnTransposeUp?.addEventListener("click", () => {
-  transposeSteps = clampTranspose(transposeSteps + 1);
-  updateTransposeUI();
-  applyFilters();
-});
 
 btnSaveSet?.addEventListener("click", () => {
   const name = (elSetName?.value || "").trim();
@@ -393,6 +367,8 @@ btnLoadSet?.addEventListener("click", () => {
   const sets = loadSavedSets();
   const ids = sets[name] || [];
   currentSet = ids.map(id => songs.find(s => s.id === id)).filter(Boolean);
+
+  activeSetIndex = currentSet.length ? 0 : -1;
   renderSet();
 });
 
@@ -408,11 +384,11 @@ btnDeleteSet?.addEventListener("click", () => {
 
 btnClearSet?.addEventListener("click", () => {
   currentSet = [];
+  activeSetIndex = -1;
   renderSet();
 });
 
-// ---- smart 90-min set builder ----
-// 90 mins ~ 15 songs. Respects current filters.
+// ---- smart 90-min set builder (15 songs) ----
 function buildSmartSet() {
   const q = (elSearch?.value || "").toLowerCase().trim();
   const era = elEra?.value || "all";
@@ -434,7 +410,6 @@ function buildSmartSet() {
     return matchesQ && matchesEra && matchesArtist && matchesTag;
   });
 
-  // Bias toward popularity
   pool.sort((a,b)=>(b.popularity||0)-(a.popularity||0));
 
   const byEnergy = (n) => pool.filter(s => (s.energy||0) === n);
@@ -452,13 +427,13 @@ function buildSmartSet() {
   pickUnique(byEnergy(4), 1, set);
   pickUnique(byEnergy(5), 1, set);
 
-  // fallback fill
   for (const s of pool) {
     if (set.length >= 15) break;
     if (!set.some(x => x.id === s.id)) set.push(s);
   }
 
   currentSet = set.slice(0, 15);
+  activeSetIndex = currentSet.length ? 0 : -1;
   renderSet();
 }
 btnBuild?.addEventListener("click", buildSmartSet);
@@ -475,19 +450,18 @@ elSort?.addEventListener("change", applyFilters);
   setStageMode(localStorage.getItem("stageMode") === "1");
   refreshSavedSetsDropdown();
   renderSet();
-  updateTransposeUI();
+  updateSongCounter(0);
 
-  // Multi-JSON loader (cache-busted for iPad)
-  Promise.all(["songs.json", "songs_extra_200_real_titles.json"].map(f =>
-    fetch(f + "?v=" + Date.now()).then(r => {
-      if (!r.ok) throw new Error(`Failed to load ${f} (${r.status})`);
-      return r.json();
-    })
+  // EDIT THESE FILENAMES to match what you uploaded:
+  const FILES = ["songs.json", "songs_extra_200_real_titles.json"];
+
+  Promise.allSettled(FILES.map(f =>
+    fetch(f + "?v=" + Date.now()).then(r => r.ok ? r.json() : [])
   ))
   .then(results => {
-    songs = results.flat();
+    songs = results.flatMap(x => (x.status === "fulfilled" ? x.value : []));
 
-    // Optional: de-dup by id (keeps first)
+    // De-dup by id (keep first)
     const seen = new Set();
     songs = songs.filter(s => {
       const id = String(s.id || "");
@@ -499,7 +473,6 @@ elSort?.addEventListener("change", applyFilters);
 
     populateArtistFilter();
     applyFilters();
-    refreshSavedSetsDropdown();
   })
   .catch(err => showError(err.message));
 })();
