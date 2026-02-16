@@ -5,7 +5,7 @@
 // search, eraFilter, artistFilter, tagFilter, sortBy, btnBuild, btnStage,
 // songList, currentSet, setName, btnSaveSet, btnClearSet, savedSets, btnLoadSet, btnDeleteSet
 //
-// Loads songs from: songs.json + songs_extra_200.json (both must exist in repo root)
+// Loads songs from: songs.json + songs_extra_200_real_titles.json (both must exist in repo root)
 
 let songs = [];
 let currentSet = [];
