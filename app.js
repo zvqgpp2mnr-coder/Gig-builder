@@ -158,18 +158,28 @@ elSongList?.addEventListener("click", (e) => {
     renderSet();
     return;
   }
+if (chordBtn) {
+  const id = chordBtn.getAttribute("data-songid");
+  const panel = document.getElementById("chords-" + id);
+  if (!panel) return;
 
-  if (chordBtn) {
-    const id = chordBtn.getAttribute("data-songid");
-    document.querySelectorAll(".chords").forEach(p => p.style.display = "none");
-    document.querySelectorAll(".btn-chords").forEach(b => b.textContent = "📄 View Chords");
+  const isOpen = panel.style.display !== "none";
 
-    const panel = document.getElementById("chords-" + id);
-    if (!panel) return;
-
-    panel.style.display = "block";
-    chordBtn.textContent = "📄 Hide Chords";
+  // If already open, close it (toggle behavior)
+  if (isOpen) {
+    panel.style.display = "none";
+    chordBtn.textContent = "📄 View Chords";
+    return;
   }
+
+  // Otherwise close all others, then open this one
+  document.querySelectorAll(".chords").forEach(p => p.style.display = "none");
+  document.querySelectorAll(".btn-chords").forEach(b => b.textContent = "📄 View Chords");
+
+  panel.style.display = "block";
+  chordBtn.textContent = "📄 Hide Chords";
+}
+
 });
 
 elCurrentSet?.addEventListener("click", (e) => {
