@@ -1,0 +1,13 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+.song {
+  background: #222;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
