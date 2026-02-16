@@ -344,7 +344,7 @@ elSort?.addEventListener("change", applyFilters);
   renderSet();
 
   // Multi-JSON loader (cache-busted for iPad)
-  Promise.all(["songs.json", "songs_extra_200.json"].map(f =>
+  Promise.all(["songs.json", "songs_extra_200_real_titles.json"].map(f =>
     fetch(f + "?v=" + Date.now()).then(r => {
       if (!r.ok) throw new Error(`Failed to load ${f} (${r.status})`);
       return r.json();
