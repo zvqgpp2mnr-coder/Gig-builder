@@ -126,6 +126,11 @@ function populateArtistFilter() {
 }
 
 // ---- filters + sorting ----
+function updateSongCounter(visibleCount) {
+  if (!elSongCounter) return;
+  const total = songs.length;
+  elSongCounter.textContent = `Songs: ${visibleCount} showing • ${total} total`;
+}
 function applyFilters() {
   const q = (elSearch?.value || "").toLowerCase().trim();
   const era = elEra?.value || "all";
