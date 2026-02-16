@@ -17,6 +17,7 @@ const elEra        = document.getElementById("eraFilter");
 const elArtist     = document.getElementById("artistFilter");
 const elTag        = document.getElementById("tagFilter");
 const elSort       = document.getElementById("sortBy");
+const elSongCounter = document.getElementById("songCounter");
 
 const elCurrentSet = document.getElementById("currentSet");
 const elSetName    = document.getElementById("setName");
