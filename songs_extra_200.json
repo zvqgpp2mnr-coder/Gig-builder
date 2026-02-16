@@ -1,0 +1,10588 @@
+[
+  {
+    "id": "elbow-extra-1",
+    "artist": "Elbow",
+    "title": "Elbow Special Track 1",
+    "era": "90s",
+    "key": "G",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 85,
+    "tags": [
+      "acoustic",
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "green-day-extra-2",
+    "artist": "Green Day",
+    "title": "Green Day Special Track 2",
+    "era": "90s",
+    "key": "E",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 83,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-libertines-extra-3",
+    "artist": "The Libertines",
+    "title": "The Libertines Special Track 3",
+    "era": "80s",
+    "key": "G",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 76,
+    "tags": [
+      "acoustic",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "ocean-colour-scene-extra-4",
+    "artist": "Ocean Colour Scene",
+    "title": "Ocean Colour Scene Special Track 4",
+    "era": "80s",
+    "key": "G",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 77,
+    "tags": [
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "suede-extra-5",
+    "artist": "Suede",
+    "title": "Suede Special Track 5",
+    "era": "90s",
+    "key": "D",
+    "capo": 3,
+    "energy": 3,
+    "popularity": 89,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "blur-extra-6",
+    "artist": "Blur",
+    "title": "Blur Special Track 6",
+    "era": "90s",
+    "key": "A",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 89,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "stone-roses-extra-7",
+    "artist": "Stone Roses",
+    "title": "Stone Roses Special Track 7",
+    "era": "00s",
+    "key": "C",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 87,
+    "tags": [
+      "party",
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-killers-extra-8",
+    "artist": "The Killers",
+    "title": "The Killers Special Track 8",
+    "era": "00s",
+    "key": "F",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 74,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-cure-extra-9",
+    "artist": "The Cure",
+    "title": "The Cure Special Track 9",
+    "era": "00s",
+    "key": "F",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 93,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "coldplay-extra-10",
+    "artist": "Coldplay",
+    "title": "Coldplay Special Track 10",
+    "era": "80s",
+    "key": "D",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 80,
+    "tags": [
+      "indie",
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "franz-ferdinand-extra-11",
+    "artist": "Franz Ferdinand",
+    "title": "Franz Ferdinand Special Track 11",
+    "era": "90s",
+    "key": "G",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 86,
+    "tags": [
+      "acoustic",
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "elbow-extra-12",
+    "artist": "Elbow",
+    "title": "Elbow Special Track 12",
+    "era": "80s",
+    "key": "E",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 76,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "the-killers-extra-13",
+    "artist": "The Killers",
+    "title": "The Killers Special Track 13",
+    "era": "80s",
+    "key": "E",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 86,
+    "tags": [
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "stereophonics-extra-14",
+    "artist": "Stereophonics",
+    "title": "Stereophonics Special Track 14",
+    "era": "90s",
+    "key": "F",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 90,
+    "tags": [
+      "pub",
+      "acoustic",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "kings-of-leon-extra-15",
+    "artist": "Kings of Leon",
+    "title": "Kings of Leon Special Track 15",
+    "era": "00s",
+    "key": "E",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 78,
+    "tags": [
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "the-white-stripes-extra-16",
+    "artist": "The White Stripes",
+    "title": "The White Stripes Special Track 16",
+    "era": "00s",
+    "key": "Em",
+    "capo": 3,
+    "energy": 3,
+    "popularity": 81,
+    "tags": [
+      "pub",
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "blur-extra-17",
+    "artist": "Blur",
+    "title": "Blur Special Track 17",
+    "era": "00s",
+    "key": "Em",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 72,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-kooks-extra-18",
+    "artist": "The Kooks",
+    "title": "The Kooks Special Track 18",
+    "era": "80s",
+    "key": "C",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 81,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "stone-roses-extra-19",
+    "artist": "Stone Roses",
+    "title": "Stone Roses Special Track 19",
+    "era": "90s",
+    "key": "Am",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 78,
+    "tags": [
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "snow-patrol-extra-20",
+    "artist": "Snow Patrol",
+    "title": "Snow Patrol Special Track 20",
+    "era": "90s",
+    "key": "Am",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 72,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-smiths-extra-21",
+    "artist": "The Smiths",
+    "title": "The Smiths Special Track 21",
+    "era": "90s",
+    "key": "D",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 78,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "manic-street-preachers-extra-22",
+    "artist": "Manic Street Preachers",
+    "title": "Manic Street Preachers Special Track 22",
+    "era": "00s",
+    "key": "Am",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 82,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "stereophonics-extra-23",
+    "artist": "Stereophonics",
+    "title": "Stereophonics Special Track 23",
+    "era": "80s",
+    "key": "G",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 82,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "kings-of-leon-extra-24",
+    "artist": "Kings of Leon",
+    "title": "Kings of Leon Special Track 24",
+    "era": "00s",
+    "key": "D",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 92,
+    "tags": [
+      "acoustic",
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-smiths-extra-25",
+    "artist": "The Smiths",
+    "title": "The Smiths Special Track 25",
+    "era": "90s",
+    "key": "F",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 73,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "blur-extra-26",
+    "artist": "Blur",
+    "title": "Blur Special Track 26",
+    "era": "90s",
+    "key": "C",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 86,
+    "tags": [
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "kasabian-extra-27",
+    "artist": "Kasabian",
+    "title": "Kasabian Special Track 27",
+    "era": "80s",
+    "key": "C",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 78,
+    "tags": [
+      "pub",
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-killers-extra-28",
+    "artist": "The Killers",
+    "title": "The Killers Special Track 28",
+    "era": "90s",
+    "key": "C",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 84,
+    "tags": [
+      "acoustic",
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "ocean-colour-scene-extra-29",
+    "artist": "Ocean Colour Scene",
+    "title": "Ocean Colour Scene Special Track 29",
+    "era": "80s",
+    "key": "Am",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 78,
+    "tags": [
+      "pub",
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "shed-seven-extra-30",
+    "artist": "Shed Seven",
+    "title": "Shed Seven Special Track 30",
+    "era": "90s",
+    "key": "A",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 83,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "muse-extra-31",
+    "artist": "Muse",
+    "title": "Muse Special Track 31",
+    "era": "90s",
+    "key": "Am",
+    "capo": 3,
+    "energy": 3,
+    "popularity": 90,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "travis-extra-32",
+    "artist": "Travis",
+    "title": "Travis Special Track 32",
+    "era": "00s",
+    "key": "A",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 93,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "suede-extra-33",
+    "artist": "Suede",
+    "title": "Suede Special Track 33",
+    "era": "90s",
+    "key": "A",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 94,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-smiths-extra-34",
+    "artist": "The Smiths",
+    "title": "The Smiths Special Track 34",
+    "era": "80s",
+    "key": "F",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 83,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-smiths-extra-35",
+    "artist": "The Smiths",
+    "title": "The Smiths Special Track 35",
+    "era": "00s",
+    "key": "E",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 82,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-white-stripes-extra-36",
+    "artist": "The White Stripes",
+    "title": "The White Stripes Special Track 36",
+    "era": "00s",
+    "key": "Em",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 75,
+    "tags": [
+      "indie",
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "stereophonics-extra-37",
+    "artist": "Stereophonics",
+    "title": "Stereophonics Special Track 37",
+    "era": "80s",
+    "key": "C",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 89,
+    "tags": [
+      "pub",
+      "acoustic",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "oasis-extra-38",
+    "artist": "Oasis",
+    "title": "Oasis Special Track 38",
+    "era": "80s",
+    "key": "A",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 84,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "journey-extra-39",
+    "artist": "Journey",
+    "title": "Journey Special Track 39",
+    "era": "80s",
+    "key": "C",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 80,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "manic-street-preachers-extra-40",
+    "artist": "Manic Street Preachers",
+    "title": "Manic Street Preachers Special Track 40",
+    "era": "90s",
+    "key": "G",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 75,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "the-smiths-extra-41",
+    "artist": "The Smiths",
+    "title": "The Smiths Special Track 41",
+    "era": "00s",
+    "key": "Am",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 70,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "travis-extra-42",
+    "artist": "Travis",
+    "title": "Travis Special Track 42",
+    "era": "00s",
+    "key": "F",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 87,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "bryan-adams-extra-43",
+    "artist": "Bryan Adams",
+    "title": "Bryan Adams Special Track 43",
+    "era": "00s",
+    "key": "Am",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 72,
+    "tags": [
+      "indie",
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "queen-extra-44",
+    "artist": "Queen",
+    "title": "Queen Special Track 44",
+    "era": "80s",
+    "key": "C",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 93,
+    "tags": [
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "stone-roses-extra-45",
+    "artist": "Stone Roses",
+    "title": "Stone Roses Special Track 45",
+    "era": "00s",
+    "key": "F",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 87,
+    "tags": [
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "kaiser-chiefs-extra-46",
+    "artist": "Kaiser Chiefs",
+    "title": "Kaiser Chiefs Special Track 46",
+    "era": "00s",
+    "key": "Em",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 79,
+    "tags": [
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "queen-extra-47",
+    "artist": "Queen",
+    "title": "Queen Special Track 47",
+    "era": "80s",
+    "key": "E",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 84,
+    "tags": [
+      "indie",
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "shed-seven-extra-48",
+    "artist": "Shed Seven",
+    "title": "Shed Seven Special Track 48",
+    "era": "90s",
+    "key": "Em",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 81,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "snow-patrol-extra-49",
+    "artist": "Snow Patrol",
+    "title": "Snow Patrol Special Track 49",
+    "era": "90s",
+    "key": "Em",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 76,
+    "tags": [
+      "indie",
+      "pub",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "elbow-extra-50",
+    "artist": "Elbow",
+    "title": "Elbow Special Track 50",
+    "era": "00s",
+    "key": "E",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 87,
+    "tags": [
+      "acoustic",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "coldplay-extra-51",
+    "artist": "Coldplay",
+    "title": "Coldplay Special Track 51",
+    "era": "90s",
+    "key": "D",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 79,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "shed-seven-extra-52",
+    "artist": "Shed Seven",
+    "title": "Shed Seven Special Track 52",
+    "era": "90s",
+    "key": "A",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 80,
+    "tags": [
+      "party",
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "arctic-monkeys-extra-53",
+    "artist": "Arctic Monkeys",
+    "title": "Arctic Monkeys Special Track 53",
+    "era": "80s",
+    "key": "A",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 74,
+    "tags": [
+      "pub",
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "the-kooks-extra-54",
+    "artist": "The Kooks",
+    "title": "The Kooks Special Track 54",
+    "era": "00s",
+    "key": "F",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 81,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "blur-extra-55",
+    "artist": "Blur",
+    "title": "Blur Special Track 55",
+    "era": "90s",
+    "key": "D",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 84,
+    "tags": [
+      "pub",
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "bryan-adams-extra-56",
+    "artist": "Bryan Adams",
+    "title": "Bryan Adams Special Track 56",
+    "era": "00s",
+    "key": "G",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 72,
+    "tags": [
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "stone-roses-extra-57",
+    "artist": "Stone Roses",
+    "title": "Stone Roses Special Track 57",
+    "era": "80s",
+    "key": "E",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 85,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-smiths-extra-58",
+    "artist": "The Smiths",
+    "title": "The Smiths Special Track 58",
+    "era": "80s",
+    "key": "F",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 94,
+    "tags": [
+      "indie",
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "oasis-extra-59",
+    "artist": "Oasis",
+    "title": "Oasis Special Track 59",
+    "era": "80s",
+    "key": "Em",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 75,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "coldplay-extra-60",
+    "artist": "Coldplay",
+    "title": "Coldplay Special Track 60",
+    "era": "90s",
+    "key": "E",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 77,
+    "tags": [
+      "party",
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "happy-mondays-extra-61",
+    "artist": "Happy Mondays",
+    "title": "Happy Mondays Special Track 61",
+    "era": "80s",
+    "key": "Am",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 88,
+    "tags": [
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "suede-extra-62",
+    "artist": "Suede",
+    "title": "Suede Special Track 62",
+    "era": "00s",
+    "key": "Em",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 70,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "suede-extra-63",
+    "artist": "Suede",
+    "title": "Suede Special Track 63",
+    "era": "90s",
+    "key": "E",
+    "capo": 3,
+    "energy": 3,
+    "popularity": 84,
+    "tags": [
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-libertines-extra-64",
+    "artist": "The Libertines",
+    "title": "The Libertines Special Track 64",
+    "era": "00s",
+    "key": "F",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 79,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "kasabian-extra-65",
+    "artist": "Kasabian",
+    "title": "Kasabian Special Track 65",
+    "era": "00s",
+    "key": "C",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 80,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "elbow-extra-66",
+    "artist": "Elbow",
+    "title": "Elbow Special Track 66",
+    "era": "90s",
+    "key": "Em",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 94,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "pulp-extra-67",
+    "artist": "Pulp",
+    "title": "Pulp Special Track 67",
+    "era": "00s",
+    "key": "Em",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 91,
+    "tags": [
+      "acoustic",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "journey-extra-68",
+    "artist": "Journey",
+    "title": "Journey Special Track 68",
+    "era": "90s",
+    "key": "A",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 74,
+    "tags": [
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "foo-fighters-extra-69",
+    "artist": "Foo Fighters",
+    "title": "Foo Fighters Special Track 69",
+    "era": "00s",
+    "key": "A",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 95,
+    "tags": [
+      "indie",
+      "pub",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "muse-extra-70",
+    "artist": "Muse",
+    "title": "Muse Special Track 70",
+    "era": "80s",
+    "key": "Em",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 80,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "oasis-extra-71",
+    "artist": "Oasis",
+    "title": "Oasis Special Track 71",
+    "era": "90s",
+    "key": "A",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 82,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "queen-extra-72",
+    "artist": "Queen",
+    "title": "Queen Special Track 72",
+    "era": "00s",
+    "key": "F",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 84,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-verve-extra-73",
+    "artist": "The Verve",
+    "title": "The Verve Special Track 73",
+    "era": "00s",
+    "key": "D",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 75,
+    "tags": [
+      "indie",
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "travis-extra-74",
+    "artist": "Travis",
+    "title": "Travis Special Track 74",
+    "era": "00s",
+    "key": "Am",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 71,
+    "tags": [
+      "pub",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "kings-of-leon-extra-75",
+    "artist": "Kings of Leon",
+    "title": "Kings of Leon Special Track 75",
+    "era": "90s",
+    "key": "E",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 75,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "dire-straits-extra-76",
+    "artist": "Dire Straits",
+    "title": "Dire Straits Special Track 76",
+    "era": "90s",
+    "key": "E",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 75,
+    "tags": [
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "the-verve-extra-77",
+    "artist": "The Verve",
+    "title": "The Verve Special Track 77",
+    "era": "90s",
+    "key": "F",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 77,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "manic-street-preachers-extra-78",
+    "artist": "Manic Street Preachers",
+    "title": "Manic Street Preachers Special Track 78",
+    "era": "80s",
+    "key": "C",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 86,
+    "tags": [
+      "acoustic",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "stone-roses-extra-79",
+    "artist": "Stone Roses",
+    "title": "Stone Roses Special Track 79",
+    "era": "00s",
+    "key": "E",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 77,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "snow-patrol-extra-80",
+    "artist": "Snow Patrol",
+    "title": "Snow Patrol Special Track 80",
+    "era": "00s",
+    "key": "C",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 85,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-cure-extra-81",
+    "artist": "The Cure",
+    "title": "The Cure Special Track 81",
+    "era": "00s",
+    "key": "E",
+    "capo": 3,
+    "energy": 3,
+    "popularity": 83,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "elbow-extra-82",
+    "artist": "Elbow",
+    "title": "Elbow Special Track 82",
+    "era": "80s",
+    "key": "E",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 73,
+    "tags": [
+      "pub",
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "pulp-extra-83",
+    "artist": "Pulp",
+    "title": "Pulp Special Track 83",
+    "era": "90s",
+    "key": "Em",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 77,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "green-day-extra-84",
+    "artist": "Green Day",
+    "title": "Green Day Special Track 84",
+    "era": "80s",
+    "key": "D",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 89,
+    "tags": [
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "coldplay-extra-85",
+    "artist": "Coldplay",
+    "title": "Coldplay Special Track 85",
+    "era": "90s",
+    "key": "F",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 92,
+    "tags": [
+      "indie",
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "journey-extra-86",
+    "artist": "Journey",
+    "title": "Journey Special Track 86",
+    "era": "80s",
+    "key": "Am",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 81,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-white-stripes-extra-87",
+    "artist": "The White Stripes",
+    "title": "The White Stripes Special Track 87",
+    "era": "90s",
+    "key": "Em",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 88,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "blur-extra-88",
+    "artist": "Blur",
+    "title": "Blur Special Track 88",
+    "era": "80s",
+    "key": "Am",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 71,
+    "tags": [
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "muse-extra-89",
+    "artist": "Muse",
+    "title": "Muse Special Track 89",
+    "era": "00s",
+    "key": "A",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 81,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "foo-fighters-extra-90",
+    "artist": "Foo Fighters",
+    "title": "Foo Fighters Special Track 90",
+    "era": "00s",
+    "key": "E",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 88,
+    "tags": [
+      "pub",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-white-stripes-extra-91",
+    "artist": "The White Stripes",
+    "title": "The White Stripes Special Track 91",
+    "era": "90s",
+    "key": "F",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 75,
+    "tags": [
+      "acoustic",
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "dire-straits-extra-92",
+    "artist": "Dire Straits",
+    "title": "Dire Straits Special Track 92",
+    "era": "00s",
+    "key": "E",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 78,
+    "tags": [
+      "pub",
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "kaiser-chiefs-extra-93",
+    "artist": "Kaiser Chiefs",
+    "title": "Kaiser Chiefs Special Track 93",
+    "era": "80s",
+    "key": "Am",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 92,
+    "tags": [
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "the-smiths-extra-94",
+    "artist": "The Smiths",
+    "title": "The Smiths Special Track 94",
+    "era": "90s",
+    "key": "Em",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 79,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "shed-seven-extra-95",
+    "artist": "Shed Seven",
+    "title": "Shed Seven Special Track 95",
+    "era": "80s",
+    "key": "Em",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 74,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "travis-extra-96",
+    "artist": "Travis",
+    "title": "Travis Special Track 96",
+    "era": "00s",
+    "key": "G",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 85,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "foo-fighters-extra-97",
+    "artist": "Foo Fighters",
+    "title": "Foo Fighters Special Track 97",
+    "era": "80s",
+    "key": "A",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 86,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "kaiser-chiefs-extra-98",
+    "artist": "Kaiser Chiefs",
+    "title": "Kaiser Chiefs Special Track 98",
+    "era": "90s",
+    "key": "G",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 90,
+    "tags": [
+      "pub",
+      "acoustic",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "happy-mondays-extra-99",
+    "artist": "Happy Mondays",
+    "title": "Happy Mondays Special Track 99",
+    "era": "80s",
+    "key": "Am",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 90,
+    "tags": [
+      "pub",
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "kaiser-chiefs-extra-100",
+    "artist": "Kaiser Chiefs",
+    "title": "Kaiser Chiefs Special Track 100",
+    "era": "00s",
+    "key": "E",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 93,
+    "tags": [
+      "acoustic",
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "muse-extra-101",
+    "artist": "Muse",
+    "title": "Muse Special Track 101",
+    "era": "80s",
+    "key": "C",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 83,
+    "tags": [
+      "pub",
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "foo-fighters-extra-102",
+    "artist": "Foo Fighters",
+    "title": "Foo Fighters Special Track 102",
+    "era": "80s",
+    "key": "C",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 92,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "manic-street-preachers-extra-103",
+    "artist": "Manic Street Preachers",
+    "title": "Manic Street Preachers Special Track 103",
+    "era": "00s",
+    "key": "D",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 81,
+    "tags": [
+      "party",
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-kooks-extra-104",
+    "artist": "The Kooks",
+    "title": "The Kooks Special Track 104",
+    "era": "80s",
+    "key": "E",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 77,
+    "tags": [
+      "pub",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-killers-extra-105",
+    "artist": "The Killers",
+    "title": "The Killers Special Track 105",
+    "era": "00s",
+    "key": "F",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 70,
+    "tags": [
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "happy-mondays-extra-106",
+    "artist": "Happy Mondays",
+    "title": "Happy Mondays Special Track 106",
+    "era": "00s",
+    "key": "A",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 88,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "kaiser-chiefs-extra-107",
+    "artist": "Kaiser Chiefs",
+    "title": "Kaiser Chiefs Special Track 107",
+    "era": "00s",
+    "key": "F",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 76,
+    "tags": [
+      "indie",
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "kasabian-extra-108",
+    "artist": "Kasabian",
+    "title": "Kasabian Special Track 108",
+    "era": "90s",
+    "key": "D",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 79,
+    "tags": [
+      "acoustic",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-police-extra-109",
+    "artist": "The Police",
+    "title": "The Police Special Track 109",
+    "era": "90s",
+    "key": "C",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 85,
+    "tags": [
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "coldplay-extra-110",
+    "artist": "Coldplay",
+    "title": "Coldplay Special Track 110",
+    "era": "80s",
+    "key": "A",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 94,
+    "tags": [
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "stone-roses-extra-111",
+    "artist": "Stone Roses",
+    "title": "Stone Roses Special Track 111",
+    "era": "00s",
+    "key": "Em",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 85,
+    "tags": [
+      "acoustic",
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "suede-extra-112",
+    "artist": "Suede",
+    "title": "Suede Special Track 112",
+    "era": "90s",
+    "key": "Am",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 95,
+    "tags": [
+      "acoustic",
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "dire-straits-extra-113",
+    "artist": "Dire Straits",
+    "title": "Dire Straits Special Track 113",
+    "era": "90s",
+    "key": "D",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 94,
+    "tags": [
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "green-day-extra-114",
+    "artist": "Green Day",
+    "title": "Green Day Special Track 114",
+    "era": "80s",
+    "key": "C",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 80,
+    "tags": [
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "muse-extra-115",
+    "artist": "Muse",
+    "title": "Muse Special Track 115",
+    "era": "80s",
+    "key": "Am",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 81,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "the-police-extra-116",
+    "artist": "The Police",
+    "title": "The Police Special Track 116",
+    "era": "90s",
+    "key": "D",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 80,
+    "tags": [
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "bryan-adams-extra-117",
+    "artist": "Bryan Adams",
+    "title": "Bryan Adams Special Track 117",
+    "era": "00s",
+    "key": "Em",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 73,
+    "tags": [
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "foo-fighters-extra-118",
+    "artist": "Foo Fighters",
+    "title": "Foo Fighters Special Track 118",
+    "era": "80s",
+    "key": "G",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 70,
+    "tags": [
+      "indie",
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "shed-seven-extra-119",
+    "artist": "Shed Seven",
+    "title": "Shed Seven Special Track 119",
+    "era": "90s",
+    "key": "F",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 91,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "kasabian-extra-120",
+    "artist": "Kasabian",
+    "title": "Kasabian Special Track 120",
+    "era": "00s",
+    "key": "A",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 82,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "bryan-adams-extra-121",
+    "artist": "Bryan Adams",
+    "title": "Bryan Adams Special Track 121",
+    "era": "00s",
+    "key": "E",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 86,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-killers-extra-122",
+    "artist": "The Killers",
+    "title": "The Killers Special Track 122",
+    "era": "80s",
+    "key": "D",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 93,
+    "tags": [
+      "indie",
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "foo-fighters-extra-123",
+    "artist": "Foo Fighters",
+    "title": "Foo Fighters Special Track 123",
+    "era": "00s",
+    "key": "D",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 78,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "snow-patrol-extra-124",
+    "artist": "Snow Patrol",
+    "title": "Snow Patrol Special Track 124",
+    "era": "90s",
+    "key": "Em",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 87,
+    "tags": [
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "franz-ferdinand-extra-125",
+    "artist": "Franz Ferdinand",
+    "title": "Franz Ferdinand Special Track 125",
+    "era": "90s",
+    "key": "E",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 73,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "kasabian-extra-126",
+    "artist": "Kasabian",
+    "title": "Kasabian Special Track 126",
+    "era": "80s",
+    "key": "A",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 87,
+    "tags": [
+      "acoustic",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "green-day-extra-127",
+    "artist": "Green Day",
+    "title": "Green Day Special Track 127",
+    "era": "90s",
+    "key": "G",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 73,
+    "tags": [
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-smiths-extra-128",
+    "artist": "The Smiths",
+    "title": "The Smiths Special Track 128",
+    "era": "90s",
+    "key": "F",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 89,
+    "tags": [
+      "pub",
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "foo-fighters-extra-129",
+    "artist": "Foo Fighters",
+    "title": "Foo Fighters Special Track 129",
+    "era": "90s",
+    "key": "C",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 94,
+    "tags": [
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "razorlight-extra-130",
+    "artist": "Razorlight",
+    "title": "Razorlight Special Track 130",
+    "era": "90s",
+    "key": "D",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 72,
+    "tags": [
+      "pub",
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "blur-extra-131",
+    "artist": "Blur",
+    "title": "Blur Special Track 131",
+    "era": "90s",
+    "key": "E",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 76,
+    "tags": [
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "coldplay-extra-132",
+    "artist": "Coldplay",
+    "title": "Coldplay Special Track 132",
+    "era": "90s",
+    "key": "Am",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 80,
+    "tags": [
+      "acoustic",
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "pulp-extra-133",
+    "artist": "Pulp",
+    "title": "Pulp Special Track 133",
+    "era": "90s",
+    "key": "E",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 86,
+    "tags": [
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "arctic-monkeys-extra-134",
+    "artist": "Arctic Monkeys",
+    "title": "Arctic Monkeys Special Track 134",
+    "era": "00s",
+    "key": "F",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 79,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-cure-extra-135",
+    "artist": "The Cure",
+    "title": "The Cure Special Track 135",
+    "era": "90s",
+    "key": "E",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 70,
+    "tags": [
+      "party",
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-kooks-extra-136",
+    "artist": "The Kooks",
+    "title": "The Kooks Special Track 136",
+    "era": "90s",
+    "key": "F",
+    "capo": 3,
+    "energy": 3,
+    "popularity": 90,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "stone-roses-extra-137",
+    "artist": "Stone Roses",
+    "title": "Stone Roses Special Track 137",
+    "era": "80s",
+    "key": "G",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 76,
+    "tags": [
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-police-extra-138",
+    "artist": "The Police",
+    "title": "The Police Special Track 138",
+    "era": "00s",
+    "key": "A",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 76,
+    "tags": [
+      "pub",
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "coldplay-extra-139",
+    "artist": "Coldplay",
+    "title": "Coldplay Special Track 139",
+    "era": "90s",
+    "key": "E",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 74,
+    "tags": [
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "oasis-extra-140",
+    "artist": "Oasis",
+    "title": "Oasis Special Track 140",
+    "era": "00s",
+    "key": "Em",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 74,
+    "tags": [
+      "indie",
+      "acoustic",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "kings-of-leon-extra-141",
+    "artist": "Kings of Leon",
+    "title": "Kings of Leon Special Track 141",
+    "era": "80s",
+    "key": "Em",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 73,
+    "tags": [
+      "party",
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-kooks-extra-142",
+    "artist": "The Kooks",
+    "title": "The Kooks Special Track 142",
+    "era": "90s",
+    "key": "F",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 90,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "kaiser-chiefs-extra-143",
+    "artist": "Kaiser Chiefs",
+    "title": "Kaiser Chiefs Special Track 143",
+    "era": "90s",
+    "key": "C",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 80,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "shed-seven-extra-144",
+    "artist": "Shed Seven",
+    "title": "Shed Seven Special Track 144",
+    "era": "90s",
+    "key": "Am",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 72,
+    "tags": [
+      "pub",
+      "acoustic",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "pulp-extra-145",
+    "artist": "Pulp",
+    "title": "Pulp Special Track 145",
+    "era": "80s",
+    "key": "Am",
+    "capo": 3,
+    "energy": 3,
+    "popularity": 87,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "dire-straits-extra-146",
+    "artist": "Dire Straits",
+    "title": "Dire Straits Special Track 146",
+    "era": "80s",
+    "key": "A",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 77,
+    "tags": [
+      "indie",
+      "acoustic",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-verve-extra-147",
+    "artist": "The Verve",
+    "title": "The Verve Special Track 147",
+    "era": "80s",
+    "key": "Am",
+    "capo": 3,
+    "energy": 3,
+    "popularity": 79,
+    "tags": [
+      "indie",
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-verve-extra-148",
+    "artist": "The Verve",
+    "title": "The Verve Special Track 148",
+    "era": "00s",
+    "key": "E",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 72,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "stereophonics-extra-149",
+    "artist": "Stereophonics",
+    "title": "Stereophonics Special Track 149",
+    "era": "80s",
+    "key": "D",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 87,
+    "tags": [
+      "acoustic",
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-libertines-extra-150",
+    "artist": "The Libertines",
+    "title": "The Libertines Special Track 150",
+    "era": "00s",
+    "key": "G",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 91,
+    "tags": [
+      "indie",
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-kooks-extra-151",
+    "artist": "The Kooks",
+    "title": "The Kooks Special Track 151",
+    "era": "00s",
+    "key": "F",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 73,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-killers-extra-152",
+    "artist": "The Killers",
+    "title": "The Killers Special Track 152",
+    "era": "90s",
+    "key": "A",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 88,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "bryan-adams-extra-153",
+    "artist": "Bryan Adams",
+    "title": "Bryan Adams Special Track 153",
+    "era": "00s",
+    "key": "Em",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 87,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "foo-fighters-extra-154",
+    "artist": "Foo Fighters",
+    "title": "Foo Fighters Special Track 154",
+    "era": "00s",
+    "key": "F",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 77,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "green-day-extra-155",
+    "artist": "Green Day",
+    "title": "Green Day Special Track 155",
+    "era": "80s",
+    "key": "A",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 73,
+    "tags": [
+      "indie",
+      "acoustic",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "oasis-extra-156",
+    "artist": "Oasis",
+    "title": "Oasis Special Track 156",
+    "era": "80s",
+    "key": "Em",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 74,
+    "tags": [
+      "acoustic",
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "journey-extra-157",
+    "artist": "Journey",
+    "title": "Journey Special Track 157",
+    "era": "80s",
+    "key": "Am",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 74,
+    "tags": [
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "arctic-monkeys-extra-158",
+    "artist": "Arctic Monkeys",
+    "title": "Arctic Monkeys Special Track 158",
+    "era": "80s",
+    "key": "C",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 82,
+    "tags": [
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "travis-extra-159",
+    "artist": "Travis",
+    "title": "Travis Special Track 159",
+    "era": "90s",
+    "key": "Em",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 89,
+    "tags": [
+      "indie",
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "stereophonics-extra-160",
+    "artist": "Stereophonics",
+    "title": "Stereophonics Special Track 160",
+    "era": "00s",
+    "key": "C",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 85,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "happy-mondays-extra-161",
+    "artist": "Happy Mondays",
+    "title": "Happy Mondays Special Track 161",
+    "era": "80s",
+    "key": "A",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 86,
+    "tags": [
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "pulp-extra-162",
+    "artist": "Pulp",
+    "title": "Pulp Special Track 162",
+    "era": "80s",
+    "key": "D",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 87,
+    "tags": [
+      "party",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "kings-of-leon-extra-163",
+    "artist": "Kings of Leon",
+    "title": "Kings of Leon Special Track 163",
+    "era": "00s",
+    "key": "C",
+    "capo": 3,
+    "energy": 3,
+    "popularity": 87,
+    "tags": [
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "foo-fighters-extra-164",
+    "artist": "Foo Fighters",
+    "title": "Foo Fighters Special Track 164",
+    "era": "80s",
+    "key": "Am",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 91,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "pulp-extra-165",
+    "artist": "Pulp",
+    "title": "Pulp Special Track 165",
+    "era": "80s",
+    "key": "E",
+    "capo": 1,
+    "energy": 5,
+    "popularity": 70,
+    "tags": [
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "kaiser-chiefs-extra-166",
+    "artist": "Kaiser Chiefs",
+    "title": "Kaiser Chiefs Special Track 166",
+    "era": "80s",
+    "key": "A",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 85,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "manic-street-preachers-extra-167",
+    "artist": "Manic Street Preachers",
+    "title": "Manic Street Preachers Special Track 167",
+    "era": "90s",
+    "key": "C",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 74,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "happy-mondays-extra-168",
+    "artist": "Happy Mondays",
+    "title": "Happy Mondays Special Track 168",
+    "era": "90s",
+    "key": "D",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 84,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "the-libertines-extra-169",
+    "artist": "The Libertines",
+    "title": "The Libertines Special Track 169",
+    "era": "80s",
+    "key": "F",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 89,
+    "tags": [
+      "party",
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "kasabian-extra-170",
+    "artist": "Kasabian",
+    "title": "Kasabian Special Track 170",
+    "era": "80s",
+    "key": "F",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 81,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "travis-extra-171",
+    "artist": "Travis",
+    "title": "Travis Special Track 171",
+    "era": "90s",
+    "key": "G",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 87,
+    "tags": [
+      "acoustic",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "ocean-colour-scene-extra-172",
+    "artist": "Ocean Colour Scene",
+    "title": "Ocean Colour Scene Special Track 172",
+    "era": "00s",
+    "key": "F",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 80,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "razorlight-extra-173",
+    "artist": "Razorlight",
+    "title": "Razorlight Special Track 173",
+    "era": "00s",
+    "key": "C",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 77,
+    "tags": [
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "green-day-extra-174",
+    "artist": "Green Day",
+    "title": "Green Day Special Track 174",
+    "era": "00s",
+    "key": "A",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 94,
+    "tags": [
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "blur-extra-175",
+    "artist": "Blur",
+    "title": "Blur Special Track 175",
+    "era": "00s",
+    "key": "Em",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 95,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "kings-of-leon-extra-176",
+    "artist": "Kings of Leon",
+    "title": "Kings of Leon Special Track 176",
+    "era": "90s",
+    "key": "C",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 79,
+    "tags": [
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "elbow-extra-177",
+    "artist": "Elbow",
+    "title": "Elbow Special Track 177",
+    "era": "00s",
+    "key": "F",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 87,
+    "tags": [
+      "party",
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "ocean-colour-scene-extra-178",
+    "artist": "Ocean Colour Scene",
+    "title": "Ocean Colour Scene Special Track 178",
+    "era": "80s",
+    "key": "C",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 86,
+    "tags": [
+      "party",
+      "indie",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "blur-extra-179",
+    "artist": "Blur",
+    "title": "Blur Special Track 179",
+    "era": "00s",
+    "key": "C",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 92,
+    "tags": [
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "elbow-extra-180",
+    "artist": "Elbow",
+    "title": "Elbow Special Track 180",
+    "era": "90s",
+    "key": "D",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 93,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-verve-extra-181",
+    "artist": "The Verve",
+    "title": "The Verve Special Track 181",
+    "era": "00s",
+    "key": "C",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 93,
+    "tags": [
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "kings-of-leon-extra-182",
+    "artist": "Kings of Leon",
+    "title": "Kings of Leon Special Track 182",
+    "era": "80s",
+    "key": "Am",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 73,
+    "tags": [
+      "pub",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-verve-extra-183",
+    "artist": "The Verve",
+    "title": "The Verve Special Track 183",
+    "era": "00s",
+    "key": "E",
+    "capo": 0,
+    "energy": 4,
+    "popularity": 89,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "green-day-extra-184",
+    "artist": "Green Day",
+    "title": "Green Day Special Track 184",
+    "era": "80s",
+    "key": "D",
+    "capo": 2,
+    "energy": 5,
+    "popularity": 95,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "stereophonics-extra-185",
+    "artist": "Stereophonics",
+    "title": "Stereophonics Special Track 185",
+    "era": "80s",
+    "key": "D",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 71,
+    "tags": [
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "snow-patrol-extra-186",
+    "artist": "Snow Patrol",
+    "title": "Snow Patrol Special Track 186",
+    "era": "00s",
+    "key": "G",
+    "capo": 2,
+    "energy": 3,
+    "popularity": 95,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "u2-extra-187",
+    "artist": "U2",
+    "title": "U2 Special Track 187",
+    "era": "90s",
+    "key": "Em",
+    "capo": 4,
+    "energy": 4,
+    "popularity": 84,
+    "tags": [
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-killers-extra-188",
+    "artist": "The Killers",
+    "title": "The Killers Special Track 188",
+    "era": "80s",
+    "key": "D",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 91,
+    "tags": [
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "razorlight-extra-189",
+    "artist": "Razorlight",
+    "title": "Razorlight Special Track 189",
+    "era": "00s",
+    "key": "C",
+    "capo": 0,
+    "energy": 5,
+    "popularity": 94,
+    "tags": [
+      "party",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "travis-extra-190",
+    "artist": "Travis",
+    "title": "Travis Special Track 190",
+    "era": "90s",
+    "key": "G",
+    "capo": 0,
+    "energy": 3,
+    "popularity": 78,
+    "tags": [
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "shed-seven-extra-191",
+    "artist": "Shed Seven",
+    "title": "Shed Seven Special Track 191",
+    "era": "90s",
+    "key": "D",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 91,
+    "tags": [
+      "acoustic",
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "verse": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "preChorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "chorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "bridge": [
+        "G",
+        "Am",
+        "F",
+        "C"
+      ],
+      "outro": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ]
+    }
+  },
+  {
+    "id": "the-police-extra-192",
+    "artist": "The Police",
+    "title": "The Police Special Track 192",
+    "era": "00s",
+    "key": "A",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 92,
+    "tags": [
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "verse": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "preChorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "chorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "bridge": [
+        "C",
+        "G",
+        "D",
+        "Em"
+      ],
+      "outro": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "journey-extra-193",
+    "artist": "Journey",
+    "title": "Journey Special Track 193",
+    "era": "00s",
+    "key": "C",
+    "capo": 1,
+    "energy": 3,
+    "popularity": 79,
+    "tags": [
+      "party",
+      "indie",
+      "acoustic"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "arctic-monkeys-extra-194",
+    "artist": "Arctic Monkeys",
+    "title": "Arctic Monkeys Special Track 194",
+    "era": "00s",
+    "key": "D",
+    "capo": 4,
+    "energy": 5,
+    "popularity": 89,
+    "tags": [
+      "pub",
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verse": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "preChorus": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "chorus": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "bridge": [
+        "F",
+        "C",
+        "G",
+        "Am"
+      ],
+      "outro": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "manic-street-preachers-extra-195",
+    "artist": "Manic Street Preachers",
+    "title": "Manic Street Preachers Special Track 195",
+    "era": "90s",
+    "key": "Em",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 70,
+    "tags": [
+      "pub",
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "travis-extra-196",
+    "artist": "Travis",
+    "title": "Travis Special Track 196",
+    "era": "90s",
+    "key": "G",
+    "capo": 3,
+    "energy": 5,
+    "popularity": 70,
+    "tags": [
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  },
+  {
+    "id": "the-killers-extra-197",
+    "artist": "The Killers",
+    "title": "The Killers Special Track 197",
+    "era": "00s",
+    "key": "Am",
+    "capo": 2,
+    "energy": 4,
+    "popularity": 88,
+    "tags": [
+      "acoustic",
+      "party",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "verse": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "preChorus": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "chorus": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "bridge": [
+        "A",
+        "Bm",
+        "G",
+        "D"
+      ],
+      "outro": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ]
+    }
+  },
+  {
+    "id": "ocean-colour-scene-extra-198",
+    "artist": "Ocean Colour Scene",
+    "title": "Ocean Colour Scene Special Track 198",
+    "era": "90s",
+    "key": "C",
+    "capo": 4,
+    "energy": 3,
+    "popularity": 80,
+    "tags": [
+      "indie"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "suede-extra-199",
+    "artist": "Suede",
+    "title": "Suede Special Track 199",
+    "era": "80s",
+    "key": "Em",
+    "capo": 3,
+    "energy": 4,
+    "popularity": 74,
+    "tags": [
+      "acoustic",
+      "indie",
+      "party"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "verse": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "preChorus": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "chorus": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "bridge": [
+        "E",
+        "F#m",
+        "D",
+        "A"
+      ],
+      "outro": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ]
+    }
+  },
+  {
+    "id": "the-smiths-extra-200",
+    "artist": "The Smiths",
+    "title": "The Smiths Special Track 200",
+    "era": "80s",
+    "key": "F",
+    "capo": 1,
+    "energy": 4,
+    "popularity": 87,
+    "tags": [
+      "party",
+      "acoustic",
+      "pub"
+    ],
+    "spotifyId": "placeholder",
+    "chords": {
+      "intro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "verse": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "preChorus": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "chorus": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "bridge": [
+        "D",
+        "Em",
+        "C",
+        "G"
+      ],
+      "outro": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ]
+    }
+  }
+]
