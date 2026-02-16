@@ -225,7 +225,7 @@ btnStage?.addEventListener("click", () => {
 });
 
 // ---- saving multiple sets ----
-const SETS_KEY = "gigBuilderSavedSets_v1";
+const SETS_KEY = "alansChordAppSavedSets_v1";
 
 function loadSavedSets() {
   try {
