@@ -8,6 +8,7 @@
 // Loads songs from: songs.json + songs_extra_200_real_titles.json (both must exist in repo root)
 
 let songs = [];
+let transposeSteps = 0; // global semitones
 let currentSet = [];
 
 // ---- DOM ----
@@ -18,6 +19,9 @@ const elArtist     = document.getElementById("artistFilter");
 const elTag        = document.getElementById("tagFilter");
 const elSort       = document.getElementById("sortBy");
 const elSongCounter = document.getElementById("songCounter");
+const btnTransposeDown = document.getElementById("transposeDown");
+const btnTransposeUp = document.getElementById("transposeUp");
+const elTransposeLabel = document.getElementById("transposeLabel");
 
 const elCurrentSet = document.getElementById("currentSet");
 const elSetName    = document.getElementById("setName");
@@ -49,6 +53,70 @@ function showError(msg) {
 }
 
 // ---- chords rendering (Structure B) ----
+const NOTE_TO_IDX = {
+  "C":0, "B#":0,
+  "C#":1, "Db":1,
+  "D":2,
+  "D#":3, "Eb":3,
+  "E":4, "Fb":4,
+  "F":5, "E#":5,
+  "F#":6, "Gb":6,
+  "G":7,
+  "G#":8, "Ab":8,
+  "A":9,
+  "A#":10, "Bb":10,
+  "B":11, "Cb":11
+};
+const IDX_TO_NOTE_SHARP = ["C","C#","D","D#","E","F","F#","G","G#","A","A#","B"];
+
+function clampTranspose(n){
+  // keep it sane for UI
+  if (n > 11) return n - 12;
+  if (n < -11) return n + 12;
+  return n;
+}
+
+function transposeNote(note, steps){
+  const idx = NOTE_TO_IDX[note];
+  if (idx === undefined) return note; // unknown, leave as-is
+  const next = (idx + steps + 1200) % 12;
+  return IDX_TO_NOTE_SHARP[next];
+}
+
+function transposeChord(chord, steps){
+  // Handles: F#m7, Bb, Dsus4, Cadd9, G/B, etc.
+  // Root note at start: [A-G][#|b]?
+  const parts = String(chord).split("/");
+  const main = parts[0];
+  const bass = parts[1];
+
+  const m = main.match(/^([A-G])([#b]?)(.*)$/);
+  if (!m) return chord;
+
+  const root = m[1] + (m[2] || "");
+  const rest = m[3] || "";
+
+  const newRoot = transposeNote(root, steps);
+  let out = newRoot + rest;
+
+  if (bass) {
+    const bm = bass.match(/^([A-G])([#b]?)(.*)$/);
+    if (bm) {
+      const bassRoot = bm[1] + (bm[2] || "");
+      const bassRest = bm[3] || "";
+      const newBass = transposeNote(bassRoot, steps) + bassRest;
+      out += "/" + newBass;
+    } else {
+      out += "/" + bass;
+    }
+  }
+  return out;
+}
+
+function updateTransposeUI(){
+  if (!elTransposeLabel) return;
+  elTransposeLabel.textContent = `Transpose: ${transposeSteps}`;
+}
 function renderChords(song) {
   const chords = song.chords || {};
   const order = ["intro","verse","preChorus","chorus","bridge","outro"];
