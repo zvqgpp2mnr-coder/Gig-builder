@@ -1,39 +1,43 @@
-// app.js
-// Alan’s Chord App — Library + Filters + Sorting + Chords + Set Builder + Save/Load + Stage Mode
-// + Teleprompter: tap set song to activate, big chords below, swipe next/prev
-// + Multi-JSON loader + song counter + hide songs on home until search/filter
+// app.js (UPDATED)
+// - Shows 🎸 Open Chords button when song.chordLink exists (library + teleprompter)
+// - Loads multiple JSON files
+// - Filters + sorting + song counter
+// - Hide all songs on home until search/filter
+// - Setlist teleprompter: tap song to activate, big chords view below, swipe prev/next
 
 let songs = [];
 let currentSet = [];
 let activeSetIndex = -1;
+let lastVisibleCount = 0;
 
 // ---- DOM ----
-const elSongList   = document.getElementById("songList");
-const elSearch     = document.getElementById("search");
-const elEra        = document.getElementById("eraFilter");
-const elArtist     = document.getElementById("artistFilter");
-const elTag        = document.getElementById("tagFilter");
-const elSort       = document.getElementById("sortBy");
+const elSongList    = document.getElementById("songList");
+const elSearch      = document.getElementById("search");
+const elEra         = document.getElementById("eraFilter");
+const elArtist      = document.getElementById("artistFilter");
+const elTag         = document.getElementById("tagFilter");
+const elSort        = document.getElementById("sortBy");
 const elSongCounter = document.getElementById("songCounter");
 
-const elCurrentSet = document.getElementById("currentSet");
-const elSetName    = document.getElementById("setName");
-const elSavedSets  = document.getElementById("savedSets");
+const elCurrentSet  = document.getElementById("currentSet");
+const elSetName     = document.getElementById("setName");
+const elSavedSets   = document.getElementById("savedSets");
 
-const btnBuild     = document.getElementById("btnBuild");
-const btnStage     = document.getElementById("btnStage");
-const btnSaveSet   = document.getElementById("btnSaveSet");
-const btnLoadSet   = document.getElementById("btnLoadSet");
-const btnDeleteSet = document.getElementById("btnDeleteSet");
-const btnClearSet  = document.getElementById("btnClearSet");
+const btnBuild      = document.getElementById("btnBuild");
+const btnStage      = document.getElementById("btnStage");
+const btnSaveSet    = document.getElementById("btnSaveSet");
+const btnLoadSet    = document.getElementById("btnLoadSet");
+const btnDeleteSet  = document.getElementById("btnDeleteSet");
+const btnClearSet   = document.getElementById("btnClearSet");
 
 // Teleprompter DOM
-const elTeleprompter = document.getElementById("teleprompter");
-const elActiveSongTitle = document.getElementById("activeSongTitle");
-const elActiveSongMeta = document.getElementById("activeSongMeta");
-const elActiveSongChords = document.getElementById("activeSongChords");
-const btnPrevSong = document.getElementById("prevSong");
-const btnNextSong = document.getElementById("nextSong");
+const elTeleprompter       = document.getElementById("teleprompter");
+const elActiveSongTitle    = document.getElementById("activeSongTitle");
+const elActiveSongMeta     = document.getElementById("activeSongMeta");
+const elActiveSongChords   = document.getElementById("activeSongChords");
+const btnPrevSong          = document.getElementById("prevSong");
+const btnNextSong          = document.getElementById("nextSong");
+const elOpenActiveChords   = document.getElementById("openActiveChords");
 
 // ---- utils ----
 function esc(str) {
@@ -48,15 +52,14 @@ function showError(msg) {
     <div class="song">
       <h3>⚠️ App error</h3>
       <p>${esc(msg)}</p>
-      <p class="small">Check file names exist in repo root.</p>
+      <p class="small">Check the JSON filenames exist in your repo root and are listed in FILES.</p>
     </div>
   `;
 }
 
 function updateSongCounter(visibleCount) {
   if (!elSongCounter) return;
-  const total = songs.length;
-  elSongCounter.textContent = `Songs: ${visibleCount} showing • ${total} total • Set: ${currentSet.length}`;
+  elSongCounter.textContent = `Songs: ${visibleCount} showing • ${songs.length} total • Set: ${currentSet.length}`;
 }
 
 // ---- chords rendering (Structure B) ----
@@ -83,6 +86,7 @@ function setActiveSong(index) {
   if (!currentSet.length) {
     activeSetIndex = -1;
     if (elTeleprompter) elTeleprompter.style.display = "none";
+    if (elOpenActiveChords) elOpenActiveChords.style.display = "none";
     return;
   }
 
@@ -97,9 +101,23 @@ function setActiveSong(index) {
   if (elActiveSongMeta) elActiveSongMeta.textContent = `Key ${s.key} • Capo ${s.capo} • ${activeSetIndex+1}/${currentSet.length}`;
   if (elActiveSongChords) elActiveSongChords.innerHTML = renderChords(s);
 
+  // External chords link (e.g., Oasis pack)
+  if (elOpenActiveChords) {
+    if (s.chordLink) {
+      elOpenActiveChords.style.display = "inline-block";
+      elOpenActiveChords.href = s.chordLink;
+    } else {
+      elOpenActiveChords.style.display = "none";
+      elOpenActiveChords.removeAttribute("href");
+    }
+  }
+
+  // highlight active list item
   document.querySelectorAll("#currentSet li").forEach(li => li.classList.remove("active"));
   const activeLi = document.querySelector(`#currentSet li[data-index="${activeSetIndex}"]`);
   if (activeLi) activeLi.classList.add("active");
+
+  updateSongCounter(lastVisibleCount);
 }
 
 function nextSong() {
@@ -119,6 +137,10 @@ function renderSongs(list) {
   elSongList.innerHTML = list.map(song => {
     const id = esc(song.id);
     const tags = Array.isArray(song.tags) ? song.tags.join(", ") : "";
+    const chordAction = song.chordLink
+      ? `<a class="btn btn-secondary" href="${esc(song.chordLink)}" target="_blank" rel="noopener">🎸 Open Chords</a>`
+      : `<button class="btn btn-secondary btn-chords" data-songid="${id}">📄 View Chords</button>`;
+
     return `
       <div class="song">
         <h3>${esc(song.title)} - ${esc(song.artist)}</h3>
@@ -133,7 +155,7 @@ function renderSongs(list) {
 
         <div class="song-actions">
           <button class="btn btn-add" data-songid="${id}">➕ Add to Set</button>
-          <button class="btn btn-secondary btn-chords" data-songid="${id}">📄 View Chords</button>
+          ${chordAction}
         </div>
 
         <div class="chords" id="chords-${id}" style="display:none;">
@@ -155,7 +177,6 @@ function renderSet() {
           <strong>${i+1}.</strong> ${esc(s.title)} - ${esc(s.artist)}
           <div class="small">Key ${esc(s.key)} • Capo ${esc(s.capo)}</div>
         </div>
-
         <button class="btn btn-secondary btn-remove" data-index="${i}">Remove</button>
       </div>
     </li>
@@ -167,7 +188,6 @@ function renderSet() {
   if (!currentSet.length) setActiveSong(-1);
   else setActiveSong(activeSetIndex);
 
-  // update counter if already set
   updateSongCounter(lastVisibleCount);
 }
 
@@ -185,8 +205,6 @@ function populateArtistFilter() {
 }
 
 // ---- filters + sorting ----
-let lastVisibleCount = 0;
-
 function applyFilters() {
   const q = (elSearch?.value || "").toLowerCase().trim();
   const era = elEra?.value || "all";
@@ -228,19 +246,17 @@ function applyFilters() {
   updateSongCounter(list.length);
 }
 
-// ---- library click handling (Add + Chords toggle) ----
+// ---- library click handling (Add + internal chords toggle only) ----
 elSongList?.addEventListener("click", (e) => {
   const addBtn = e.target.closest(".btn-add");
-  const chordBtn = e.target.closest(".btn-chords");
+  const chordBtn = e.target.closest(".btn-chords"); // only internal chord view button
 
   if (addBtn) {
     const id = addBtn.getAttribute("data-songid");
     const song = songs.find(s => String(s.id) === String(id));
     if (!song) return;
 
-    // prevent duplicates
-    if (currentSet.some(x => x.id === song.id)) return;
-
+    if (currentSet.some(x => x.id === song.id)) return; // no duplicates
     currentSet.push(song);
     renderSet();
     return;
@@ -252,7 +268,6 @@ elSongList?.addEventListener("click", (e) => {
     if (!panel) return;
 
     const isOpen = panel.style.display !== "none";
-
     if (isOpen) {
       panel.style.display = "none";
       chordBtn.textContent = "📄 View Chords";
@@ -354,7 +369,7 @@ btnSaveSet?.addEventListener("click", () => {
   if (!currentSet.length) { alert("Your current set is empty."); return; }
 
   const sets = loadSavedSets();
-  sets[name] = currentSet.map(s => s.id); // store IDs only
+  sets[name] = currentSet.map(s => s.id);
   saveSavedSets(sets);
   refreshSavedSetsDropdown();
   alert("Saved!");
@@ -452,14 +467,12 @@ elSort?.addEventListener("change", applyFilters);
   renderSet();
   updateSongCounter(0);
 
-  // EDIT THESE FILENAMES to match what you uploaded:
-
+  // IMPORTANT: Ensure these files exist in your repo root, with exact names:
   const FILES = [
-  "songs.json",
-  "songs_extra_200_real_titles.json",
-  "oasis_50_with_links.json"
-];
-  
+    "songs.json",
+    "songs_extra_200_real_titles.json",
+    "oasis_50_with_links.json"
+  ];
 
   Promise.allSettled(FILES.map(f =>
     fetch(f + "?v=" + Date.now()).then(r => r.ok ? r.json() : [])
