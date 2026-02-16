@@ -315,6 +315,7 @@ elArtist.addEventListener("change", applyFilters);
     })
     .then(data => {
       songs = Array.isArray(data) ? data : [];
+      populateArtistFilter();
       applyFilters();
       refreshSavedSetsDropdown();
     })
