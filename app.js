@@ -300,12 +300,32 @@ elSongList?.addEventListener("click", (e) => {
 
 // ---- remove from set ----
 elCurrentSet?.addEventListener("click", (e) => {
-  const btn = e.target.closest(".btn-remove");
-  if (!btn) return;
-  const idx = Number(btn.getAttribute("data-index"));
-  if (Number.isNaN(idx)) return;
-  currentSet.splice(idx, 1);
-  renderSet();
+  // Remove
+  const removeBtn = e.target.closest(".btn-remove");
+  if (removeBtn) {
+    const idx = Number(removeBtn.getAttribute("data-index"));
+    if (!Number.isNaN(idx)) {
+      currentSet.splice(idx, 1);
+      renderSet();
+    }
+    return;
+  }
+
+  // Toggle chords from set list
+  const chordBtn = e.target.closest(".set-chords");
+  if (chordBtn) {
+    const id = chordBtn.getAttribute("data-songid");
+    const panel = document.getElementById("set-chords-" + id);
+    if (!panel) return;
+
+    const isOpen = panel.style.display !== "none";
+
+    // Optional: close all other open set chord panels
+    document.querySelectorAll("#currentSet .chords").forEach(p => p.style.display = "none");
+
+    panel.style.display = isOpen ? "none" : "block";
+    chordBtn.textContent = isOpen ? "📄 Chords" : "📄 Hide";
+  }
 });
 
 // ---- stage mode ----
