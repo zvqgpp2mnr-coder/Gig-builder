@@ -92,6 +92,13 @@ function renderSet() {
 
 // ---- filters + sorting ----
 function applyFilters() {
+  function populateArtistFilter() {
+  const artists = [...new Set(songs.map(s => s.artist))].sort();
+  elArtist.innerHTML = `
+    <option value="all">All Artists</option>
+    ${artists.map(a => `<option value="${esc(a)}">${esc(a)}</option>`).join("")}
+  `;
+}
   const q = (elSearch.value || "").toLowerCase().trim();
   const era = elEra.value;
   const tag = elTag.value;
