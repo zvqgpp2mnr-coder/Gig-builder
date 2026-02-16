@@ -1,4 +1,4 @@
-<!-- index.html -->
+<!-- index.html (UPDATED) -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,15 +67,24 @@
 
     <ol id="currentSet"></ol>
 
+    <!-- Teleprompter -->
     <div id="teleprompter" class="teleprompter" style="display:none;">
       <div class="tele-head">
         <button id="prevSong" class="btn btn-secondary">◀ Prev</button>
+
         <div class="tele-title">
           <div id="activeSongTitle" class="tele-song"></div>
           <div id="activeSongMeta" class="small"></div>
         </div>
+
         <button id="nextSong" class="btn btn-secondary">Next ▶</button>
+
+        <!-- NEW: opens external chords link if available (e.g., Oasis pack) -->
+        <a id="openActiveChords" class="btn btn-secondary" target="_blank" rel="noopener" style="display:none;">
+          🎸 Open Chords
+        </a>
       </div>
+
       <div id="activeSongChords" class="tele-chords"></div>
     </div>
 
