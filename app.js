@@ -159,6 +159,7 @@ function applyFilters() {
   if (sort === "energyDesc")     list.sort((a,b)=>(b.energy||0)-(a.energy||0));
 
   renderSongs(list);
+  updateSongCounter(list.length);
 }
 
 // ---- library click handling (Add + Chords toggle) ----
