@@ -136,6 +136,18 @@ function applyFilters() {
   const era = elEra?.value || "all";
   const artist = elArtist?.value || "all";
   const tag = elTag?.value || "all";
+  // If nothing selected and no search, show nothing
+const noFiltersActive =
+  !q &&
+  era === "all" &&
+  artist === "all" &&
+  tag === "all";
+
+if (noFiltersActive) {
+  renderSongs([]);
+  updateSongCounter(0);
+  return;
+}
 
   let list = songs.filter(s => {
     const matchesQ =
