@@ -1,17 +1,16 @@
-// Gig Builder (filters + chords + set builder + save/load + stage mode)
-// Works with the index.html I gave you (eraFilter/tagFilter/sortBy/etc.)
+// Gig Builder (with Artist filter + failsafes)
+// Works even if artistFilter isn't present yet (prevents "nothing showing" crashes)
 
 let songs = [];
 let currentSet = [];
 
 // ---- DOM ----
-const elArtist = document.getElementById("artistFilter");
 const elSongList   = document.getElementById("songList");
 const elSearch     = document.getElementById("search");
-const era = elEra.value;
-const artist = elArtist.value;
-const tag = elTag.value;
+const elEra        = document.getElementById("eraFilter");
+const elTag        = document.getElementById("tagFilter");
 const elSort       = document.getElementById("sortBy");
+const elArtist     = document.getElementById("artistFilter"); // may be null if index.html not updated
 
 const elCurrentSet = document.getElementById("currentSet");
 const elSetName    = document.getElementById("setName");
@@ -29,6 +28,17 @@ function esc(str) {
   return String(str ?? "").replace(/[&<>"']/g, s => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
   }[s]));
+}
+
+function showError(msg) {
+  if (!elSongList) return;
+  elSongList.innerHTML = `
+    <div class="song">
+      <h3>⚠️ App error</h3>
+      <p>${esc(msg)}</p>
+      <p class="small">Tip: make sure index.html contains the matching filter IDs.</p>
+    </div>
+  `;
 }
 
 // ---- chords rendering (Structure B) ----
@@ -52,6 +62,7 @@ function renderChords(song) {
 
 // ---- library rendering ----
 function renderSongs(list) {
+  if (!elSongList) return;
   elSongList.innerHTML = list.map(song => {
     const id = esc(song.id);
     const tags = Array.isArray(song.tags) ? song.tags.join(", ") : "";
@@ -82,6 +93,7 @@ function renderSongs(list) {
 
 // ---- current set rendering ----
 function renderSet() {
+  if (!elCurrentSet) return;
   elCurrentSet.innerHTML = currentSet.map((s, i) => `
     <li>
       <strong>${i+1}.</strong> ${esc(s.title)} - ${esc(s.artist)}
@@ -91,35 +103,39 @@ function renderSet() {
   `).join("");
 }
 
-// ---- filters + sorting ----
-function applyFilters() {
-  function populateArtistFilter() {
-  const artists = [...new Set(songs.map(s => s.artist))].sort();
+// ---- Artist dropdown population ----
+function populateArtistFilter() {
+  if (!elArtist) return; // if index.html not updated yet, do nothing safely
+  const artists = [...new Set(songs.map(s => s.artist).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
   elArtist.innerHTML = `
     <option value="all">All Artists</option>
     ${artists.map(a => `<option value="${esc(a)}">${esc(a)}</option>`).join("")}
   `;
 }
-  const q = (elSearch.value || "").toLowerCase().trim();
-  const era = elEra.value;
-  const tag = elTag.value;
+
+// ---- filters + sorting ----
+function applyFilters() {
+  const q = (elSearch?.value || "").toLowerCase().trim();
+  const era = elEra?.value || "all";
+  const tag = elTag?.value || "all";
+  const artist = elArtist?.value || "all";
 
   let list = songs.filter(s => {
-  const matchesQ =
-    !q ||
-    (s.title || "").toLowerCase().includes(q) ||
-    (s.artist || "").toLowerCase().includes(q);
+    const matchesQ =
+      !q ||
+      (s.title || "").toLowerCase().includes(q) ||
+      (s.artist || "").toLowerCase().includes(q);
 
-  const matchesEra = (era === "all") || (s.era === era);
-  const matchesArtist = (artist === "all") || (s.artist === artist);
+    const matchesEra = (era === "all") || (s.era === era);
+    const matchesArtist = (artist === "all") || (s.artist === artist);
 
-  const tags = Array.isArray(s.tags) ? s.tags : [];
-  const matchesTag = (tag === "all") || tags.includes(tag);
+    const tags = Array.isArray(s.tags) ? s.tags : [];
+    const matchesTag = (tag === "all") || tags.includes(tag);
 
-  return matchesQ && matchesEra && matchesArtist && matchesTag;
-});
+    return matchesQ && matchesEra && matchesArtist && matchesTag;
+  });
 
-  const sort = elSort.value;
+  const sort = elSort?.value || "default";
   if (sort === "popularityDesc") list.sort((a,b)=>(b.popularity||0)-(a.popularity||0));
   if (sort === "popularityAsc")  list.sort((a,b)=>(a.popularity||0)-(b.popularity||0));
   if (sort === "energyAsc")      list.sort((a,b)=>(a.energy||0)-(b.energy||0));
@@ -128,8 +144,8 @@ function applyFilters() {
   renderSongs(list);
 }
 
-// ---- library click handling (reliable on iOS) ----
-elSongList.addEventListener("click", (e) => {
+// ---- library click handling ----
+elSongList?.addEventListener("click", (e) => {
   const addBtn = e.target.closest(".btn-add");
   const chordBtn = e.target.closest(".btn-chords");
 
@@ -137,10 +153,7 @@ elSongList.addEventListener("click", (e) => {
     const id = addBtn.getAttribute("data-songid");
     const song = songs.find(s => String(s.id) === String(id));
     if (!song) return;
-
-    // prevent duplicates (remove this block if you want repeats)
-    if (currentSet.some(x => x.id === song.id)) return;
-
+    if (currentSet.some(x => x.id === song.id)) return; // prevent duplicates
     currentSet.push(song);
     renderSet();
     return;
@@ -148,8 +161,6 @@ elSongList.addEventListener("click", (e) => {
 
   if (chordBtn) {
     const id = chordBtn.getAttribute("data-songid");
-
-    // auto-close others
     document.querySelectorAll(".chords").forEach(p => p.style.display = "none");
     document.querySelectorAll(".btn-chords").forEach(b => b.textContent = "📄 View Chords");
 
@@ -161,8 +172,7 @@ elSongList.addEventListener("click", (e) => {
   }
 });
 
-// ---- remove from set ----
-elCurrentSet.addEventListener("click", (e) => {
+elCurrentSet?.addEventListener("click", (e) => {
   const btn = e.target.closest(".btn-remove");
   if (!btn) return;
   const idx = Number(btn.getAttribute("data-index"));
@@ -177,7 +187,7 @@ function setStageMode(on) {
   else document.documentElement.classList.remove("stage-mode");
   localStorage.setItem("stageMode", on ? "1" : "0");
 }
-btnStage.addEventListener("click", () => {
+btnStage?.addEventListener("click", () => {
   const on = !document.documentElement.classList.contains("stage-mode");
   setStageMode(on);
 });
@@ -194,12 +204,11 @@ function loadSavedSets() {
     return {};
   }
 }
-
 function saveSavedSets(obj) {
   localStorage.setItem(SETS_KEY, JSON.stringify(obj));
 }
-
 function refreshSavedSetsDropdown() {
+  if (!elSavedSets) return;
   const sets = loadSavedSets();
   const names = Object.keys(sets).sort((a,b)=>a.localeCompare(b));
   elSavedSets.innerHTML = names.length
@@ -207,49 +216,47 @@ function refreshSavedSetsDropdown() {
     : `<option value="">(no saved sets)</option>`;
 }
 
-btnSaveSet.addEventListener("click", () => {
-  const name = (elSetName.value || "").trim();
+btnSaveSet?.addEventListener("click", () => {
+  const name = (elSetName?.value || "").trim();
   if (!name) { alert("Give your set a name first."); return; }
   if (!currentSet.length) { alert("Your current set is empty."); return; }
-
   const sets = loadSavedSets();
-  sets[name] = currentSet.map(s => s.id); // store IDs only
+  sets[name] = currentSet.map(s => s.id);
   saveSavedSets(sets);
   refreshSavedSetsDropdown();
   alert("Saved!");
 });
 
-btnLoadSet.addEventListener("click", () => {
-  const name = elSavedSets.value;
+btnLoadSet?.addEventListener("click", () => {
+  const name = elSavedSets?.value;
   if (!name) return;
-
   const sets = loadSavedSets();
   const ids = sets[name] || [];
   currentSet = ids.map(id => songs.find(s => s.id === id)).filter(Boolean);
   renderSet();
 });
 
-btnDeleteSet.addEventListener("click", () => {
-  const name = elSavedSets.value;
+btnDeleteSet?.addEventListener("click", () => {
+  const name = elSavedSets?.value;
   if (!name) return;
-
   const sets = loadSavedSets();
   delete sets[name];
   saveSavedSets(sets);
   refreshSavedSetsDropdown();
 });
 
-btnClearSet.addEventListener("click", () => {
+btnClearSet?.addEventListener("click", () => {
   currentSet = [];
   renderSet();
 });
 
 // ---- smart 90-min set builder ----
-// 90 mins ~ 15 songs. Respects current filters (search/era/tag).
 function buildSmartSet() {
-  const q = (elSearch.value || "").toLowerCase().trim();
-  const era = elEra.value;
-  const tag = elTag.value;
+  // respects filters
+  const q = (elSearch?.value || "").toLowerCase().trim();
+  const era = elEra?.value || "all";
+  const tag = elTag?.value || "all";
+  const artist = elArtist?.value || "all";
 
   let pool = songs.filter(s => {
     const matchesQ =
@@ -258,17 +265,17 @@ function buildSmartSet() {
       (s.artist || "").toLowerCase().includes(q);
 
     const matchesEra = (era === "all") || (s.era === era);
+    const matchesArtist = (artist === "all") || (s.artist === artist);
+
     const tags = Array.isArray(s.tags) ? s.tags : [];
     const matchesTag = (tag === "all") || tags.includes(tag);
 
-    return matchesQ && matchesEra && matchesTag;
+    return matchesQ && matchesEra && matchesArtist && matchesTag;
   });
 
-  // Bias toward popularity
   pool.sort((a,b)=>(b.popularity||0)-(a.popularity||0));
 
   const byEnergy = (n) => pool.filter(s => (s.energy||0) === n);
-
   const pickUnique = (arr, count, out) => {
     for (const s of arr) {
       if (out.length >= count) break;
@@ -283,7 +290,6 @@ function buildSmartSet() {
   pickUnique(byEnergy(4), 1, set);
   pickUnique(byEnergy(5), 1, set);
 
-  // fallback if not enough exact-energy songs
   for (const s of pool) {
     if (set.length >= 15) break;
     if (!set.some(x => x.id === s.id)) set.push(s);
@@ -292,14 +298,14 @@ function buildSmartSet() {
   currentSet = set.slice(0, 15);
   renderSet();
 }
-btnBuild.addEventListener("click", buildSmartSet);
+btnBuild?.addEventListener("click", buildSmartSet);
 
 // ---- hook up filters ----
-elSearch.addEventListener("input", applyFilters);
-elEra.addEventListener("change", applyFilters);
-elTag.addEventListener("change", applyFilters);
-elSort.addEventListener("change", applyFilters);
-elArtist.addEventListener("change", applyFilters);
+elSearch?.addEventListener("input", applyFilters);
+elEra?.addEventListener("change", applyFilters);
+elArtist?.addEventListener("change", applyFilters);
+elTag?.addEventListener("change", applyFilters);
+elSort?.addEventListener("change", applyFilters);
 
 // ---- boot ----
 (function init() {
@@ -307,7 +313,6 @@ elArtist.addEventListener("change", applyFilters);
   refreshSavedSetsDropdown();
   renderSet();
 
-  // cache-busted fetch (important on iPad)
   fetch("songs.json?v=" + Date.now())
     .then(res => {
       if (!res.ok) throw new Error("Failed to load songs.json (" + res.status + ")");
@@ -320,11 +325,6 @@ elArtist.addEventListener("change", applyFilters);
       refreshSavedSetsDropdown();
     })
     .catch(err => {
-      elSongList.innerHTML = `
-        <div class="song">
-          <h3>Couldn’t load songs</h3>
-          <p>${esc(err.message)}</p>
-        </div>
-      `;
+      showError(err.message);
     });
 })();
